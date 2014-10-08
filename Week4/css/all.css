@@ -1,0 +1,190 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.wrap{
+	width: 788px;
+	margin: auto;
+}
+.header{
+	width: 788px;
+	height: 100px;
+	background: url(../images/bg.png) ;
+	background-size: 100% 100% ;
+	background-repeat: no-repeat;
+	margin-top:20px;
+	margin-bottom:20px;
+	
+
+}
+.logo a{
+	width: 308px;
+	height: 69px;
+	
+	display:block;
+	text-indent:-9999px;
+	background: url(../images/logo.png) 90% 50% no-repeat ;
+	float:left;
+	margin-right: 30px;
+}
+.menu a{
+	font-size: 8px;
+	text-decoration:none;
+	color: gray;
+	font-weight:bold;
+	text-align: center;
+}
+.menu1{
+	width: 70px;
+	height: 90px;
+	background: url(../images/menu-1.png) 100% 60% no-repeat;
+	float:left;
+	margin-right: 20px;
+	
+}
+.menu2{
+	width: 70px;
+	height: 90px;
+	background: url(../images/menu-2.png) 100% 60% no-repeat ;
+	float:left;
+	margin-right: 20px;
+	
+}
+.menu3{
+	width: 70px;
+	height: 90px;
+	background: url(../images/menu-3.png) 100% 60% no-repeat ;
+	float:left;
+	margin-right: 20px;
+	
+}
+.menu4{
+	width: 70px;
+	height: 90px;
+	background: url(../images/menu-4.png) 100% 60% no-repeat ;
+	float:left;
+	margin-right: 20px;
+}
+.menu5{
+	width: 80px;
+	height: 90px;
+	background: url(../images/menu-5.png) 100% 60% no-repeat #FFF;
+	float:left;
+	
+}
+.clear{
+  clear:both;
+}
+.content{
+	width: 788px;
+	height: 200px;
+	margin-bottom:20px;
+}
+.left{
+	width: 480px;
+	margin-right:50px;
+	float:left;
+
+}
+.left h2{
+	margin-bottom: 10px;
+	
+}
+.left p{
+	width: 480px;
+	word-break:break-all;
+	font-size:15px;
+	line-height:15px;
+}
+.left a{
+	font-size: 20px;
+	text-decoration:underline;
+	color: #00CCCC;
+	font-weight:bold;
+	text-align: left;
+}
+.right{
+	width: 240px;
+	height: 175px;
+	float:right;
+}
+.right p{
+	text-align: center;
+	color: gray;
+	font-size:15px;
+
+}
+.clear{
+	clear:both;
+}
+.menu p{
+	width: 209px;
+	word-break:break-all;
+	font-size:15px;
+	line-height:15px;
+	padding-left: 25px;
+	color: gray;
+}
+.menu img{
+	margin-bottom:10px; 
+	padding-left: 45px;
+}
+.menu h3{
+	text-align: center;
+	font-weight:bold;
+	margin-bottom:10px; 
+	color: gray;
+}
+.product1{
+	width: 259px;
+
+	float:left;
+}
+
+.product2{
+	width: 259px;
+	float:left;
+}
+.product3{
+	width: 259px;
+	float:left;
+}
