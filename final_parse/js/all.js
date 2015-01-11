@@ -237,7 +237,8 @@ $(document).ready(function(){
 						voteinfo.save(null, {
 					  	success: function(voteinfo) {
 					    // Execute any logic that should take place after the object is saved.
-					    	alert("恭喜你完成投票囉！快來看看自己支持的萌寵有沒有上榜吧")
+					    	alert("恭喜你完成投票囉！快來看看自己支持的萌寵有沒有上榜吧");
+					    	location.reload();
 					  	},
 					  	error: function(voteinfo, error) {
 					    // Execute any logic that should take place if the save fails.
@@ -269,49 +270,49 @@ $(document).ready(function(){
  	 			var votes1 = petCount.get("Pet1");
  	 			$('#one_vote .counter').text(votes1);
  	 			sort[0]=votes1;
- 	 			var path1=sort[0]*0.085+90;
+ 	 			var path1=sort[0]*0.085;
 				$("#one_pet img").animate({left:path1+"px"},10000);
  	 			
  	 			var votes2 = petCount.get("Pet2");
  	 			$('#two_vote .counter').text(votes2);
  	 			sort[1]=votes2;
- 	 			var path2=sort[1]*0.085+90;
+ 	 			var path2=sort[1]*0.085;
 				$("#two_pet img").animate({left:path2+"px"},9000);
  	 			
  	 			var votes3 = petCount.get("Pet3");
  	 			$('#three_vote .counter').text(votes3);
  	 			sort[2]=votes3;
- 	 			var path3=sort[2]*0.085+90;
+ 	 			var path3=sort[2]*0.085;
 				$("#three_pet img").animate({left:path3+"px"},8000);
  	 			
  	 			var votes4 = petCount.get("Pet4");
  	 			$('#four_vote .counter').text(votes4);
  	 			sort[3]=votes4;
- 	 			var path4=sort[3]*0.085+90;
+ 	 			var path4=sort[3]*0.085;
 				$("#four_pet img").animate({left:path4+"px"},7000);
  	 			
  	 			var votes5 = petCount.get("Pet5");
  	 			$('#five_vote .counter').text(votes5);
  	 			sort[4]=votes5;
- 	 			var path5=sort[4]*0.085+90;
+ 	 			var path5=sort[4]*0.085;
 				$("#five_pet img").animate({left:path5+"px"},6000);
  	 			
  	 			var votes6 = petCount.get("Pet6");
  				$('#six_vote .counter').text(votes6);
  				sort[5]=votes6;
- 				var path6=sort[5]*0.085+90;
+ 				var path6=sort[5]*0.085;
 				$("#six_pet img").animate({left:path6+"px"},5000);
  	 			
  	 			var votes7 = petCount.get("Pet7");
  	 			$('#seven_vote .counter').text(votes7);
  	 			sort[6]=votes7;
- 	 			var path7=sort[6]*0.085+90;
+ 	 			var path7=sort[6]*0.085;
 				$("#seven_pet img").animate({left:path7+"px"},4000);
  	 			
  	 			var votes8 = petCount.get("Pet8");
  	 			$('#eight_vote .counter').text(votes8); 	
  	 			sort[7]=votes8;
- 	 			var path8=sort[7]*0.085+90;
+ 	 			var path8=sort[7]*0.085;
 				$("#eight_pet img").animate({left:path8+"px"},3000);
 
 				sort.sort(function(a, b) {return a - b;});
